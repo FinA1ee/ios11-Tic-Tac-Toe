@@ -14,6 +14,15 @@
 		0B1F15CF20ADE79C0097CB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15CD20ADE79C0097CB76 /* LaunchScreen.storyboard */; };
 		0B1F15DA20ADE79C0097CB76 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1F15D920ADE79C0097CB76 /* Tic_Tac_ToeTests.swift */; };
 		0B1F15E520ADE79C0097CB76 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1F15E420ADE79C0097CB76 /* Tic_Tac_ToeUITests.swift */; };
+		0B1F15F520ADEA8F0097CB76 /* gamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1F15F420ADEA8F0097CB76 /* gamePage.swift */; };
+		0B1F15F720AE006C0097CB76 /* buttonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1F15F620AE006C0097CB76 /* buttonExtension.swift */; };
+		0B1F15FE20AE8F3B0097CB76 /* restart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15F820AE8F3B0097CB76 /* restart.wav */; };
+		0B1F15FF20AE8F3B0097CB76 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15F920AE8F3B0097CB76 /* start.wav */; };
+		0B1F160020AE8F3B0097CB76 /* circleSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15FA20AE8F3B0097CB76 /* circleSound.wav */; };
+		0B1F160120AE8F3B0097CB76 /* crossSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15FB20AE8F3B0097CB76 /* crossSound.wav */; };
+		0B1F160220AE8F3B0097CB76 /* exit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15FC20AE8F3B0097CB76 /* exit.wav */; };
+		0B1F160320AE8F3B0097CB76 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F15FD20AE8F3B0097CB76 /* win.wav */; };
+		0B1F160520B16D6C0097CB76 /* draw.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B1F160420B16D6C0097CB76 /* draw.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		0B1F15E020ADE79C0097CB76 /* Tic_Tac_ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tic_Tac_ToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1F15E420ADE79C0097CB76 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		0B1F15E620ADE79C0097CB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1F15F420ADEA8F0097CB76 /* gamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamePage.swift; sourceTree = "<group>"; };
+		0B1F15F620AE006C0097CB76 /* buttonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonExtension.swift; sourceTree = "<group>"; };
+		0B1F15F820AE8F3B0097CB76 /* restart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = restart.wav; sourceTree = SOURCE_ROOT; };
+		0B1F15F920AE8F3B0097CB76 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = SOURCE_ROOT; };
+		0B1F15FA20AE8F3B0097CB76 /* circleSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = circleSound.wav; sourceTree = SOURCE_ROOT; };
+		0B1F15FB20AE8F3B0097CB76 /* crossSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crossSound.wav; sourceTree = SOURCE_ROOT; };
+		0B1F15FC20AE8F3B0097CB76 /* exit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = exit.wav; sourceTree = SOURCE_ROOT; };
+		0B1F15FD20AE8F3B0097CB76 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = SOURCE_ROOT; };
+		0B1F160420B16D6C0097CB76 /* draw.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = draw.wav; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,17 @@
 		0B1F15C320ADE7990097CB76 /* Tic_Tac_Toe */ = {
 			isa = PBXGroup;
 			children = (
+				0B1F160420B16D6C0097CB76 /* draw.wav */,
+				0B1F15FA20AE8F3B0097CB76 /* circleSound.wav */,
+				0B1F15FB20AE8F3B0097CB76 /* crossSound.wav */,
+				0B1F15FC20AE8F3B0097CB76 /* exit.wav */,
+				0B1F15F820AE8F3B0097CB76 /* restart.wav */,
+				0B1F15F920AE8F3B0097CB76 /* start.wav */,
+				0B1F15FD20AE8F3B0097CB76 /* win.wav */,
+				0B1F15F620AE006C0097CB76 /* buttonExtension.swift */,
 				0B1F15C420ADE7990097CB76 /* AppDelegate.swift */,
 				0B1F15C620ADE7990097CB76 /* ViewController.swift */,
+				0B1F15F420ADEA8F0097CB76 /* gamePage.swift */,
 				0B1F15C820ADE7990097CB76 /* Main.storyboard */,
 				0B1F15CB20ADE79C0097CB76 /* Assets.xcassets */,
 				0B1F15CD20ADE79C0097CB76 /* LaunchScreen.storyboard */,
@@ -229,8 +256,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1F160520B16D6C0097CB76 /* draw.wav in Resources */,
+				0B1F15FE20AE8F3B0097CB76 /* restart.wav in Resources */,
 				0B1F15CF20ADE79C0097CB76 /* LaunchScreen.storyboard in Resources */,
 				0B1F15CC20ADE79C0097CB76 /* Assets.xcassets in Resources */,
+				0B1F160120AE8F3B0097CB76 /* crossSound.wav in Resources */,
+				0B1F15FF20AE8F3B0097CB76 /* start.wav in Resources */,
+				0B1F160020AE8F3B0097CB76 /* circleSound.wav in Resources */,
+				0B1F160320AE8F3B0097CB76 /* win.wav in Resources */,
+				0B1F160220AE8F3B0097CB76 /* exit.wav in Resources */,
 				0B1F15CA20ADE7990097CB76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B1F15C720ADE7990097CB76 /* ViewController.swift in Sources */,
+				0B1F15F720AE006C0097CB76 /* buttonExtension.swift in Sources */,
+				0B1F15F520ADEA8F0097CB76 /* gamePage.swift in Sources */,
 				0B1F15C520ADE7990097CB76 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M2XC6268JP;
+				DEVELOPMENT_TEAM = X3273CV6V4;
 				INFOPLIST_FILE = Tic_Tac_Toe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,7 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M2XC6268JP;
+				DEVELOPMENT_TEAM = X3273CV6V4;
 				INFOPLIST_FILE = Tic_Tac_Toe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
